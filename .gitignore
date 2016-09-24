@@ -6,6 +6,7 @@ npm-debug.log
 #MISC
 *.DS_Store
 .idea
+*.csv
 
 #IMG stored on AWS#
 /stereoviews_by_peter_elfelt
