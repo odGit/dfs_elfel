@@ -18,4 +18,4 @@ for root, dirs, file_in_dir in os.walk("./stereoviews_by_peter_elfelt/"):
             img = Image.open(root+img_file)
             w, h = img.size
             crop_img = img.crop(get_crop_box(w,h))
-            crop_img.save(root+"number/"+tail[:-4]+".png", "PNG")
+            crop_img.save(root+tail[:-4]+".png", "PNG")
